@@ -1,0 +1,86 @@
+{
+  "format": 1,
+  "restore": {
+    "G:\\Projects\\MiniMusicPlayer\\MiniMusicPlayer\\MiniMusicPlayer.csproj": {}
+  },
+  "projects": {
+    "G:\\Projects\\MiniMusicPlayer\\MiniMusicPlayer\\MiniMusicPlayer.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "G:\\Projects\\MiniMusicPlayer\\MiniMusicPlayer\\MiniMusicPlayer.csproj",
+        "projectName": "MiniMusicPlayer",
+        "projectPath": "G:\\Projects\\MiniMusicPlayer\\MiniMusicPlayer\\MiniMusicPlayer.csproj",
+        "packagesPath": "C:\\Users\\georg\\.nuget\\packages\\",
+        "outputPath": "G:\\Projects\\MiniMusicPlayer\\MiniMusicPlayer\\obj\\",
+        "projectStyle": "PackageReference",
+        "skipContentFileWrite": true,
+        "fallbackFolders": [
+          "E:\\Microsoft\\Xamarin\\NuGet\\"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\georg\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net471"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net471": {
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "allWarningsAsErrors": true
+        }
+      },
+      "frameworks": {
+        "net471": {
+          "dependencies": {
+            "Fody": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[5.0.6, )"
+            },
+            "GstSharp": {
+              "target": "Package",
+              "version": "[1.16.0, )"
+            },
+            "NAudio": {
+              "target": "Package",
+              "version": "[1.9.0, )"
+            },
+            "PropertyChanged.Fody": {
+              "target": "Package",
+              "version": "[3.0.1, )"
+            },
+            "morelinq": {
+              "target": "Package",
+              "version": "[3.1.1, )"
+            },
+            "taglib": {
+              "target": "Package",
+              "version": "[2.1.0, )"
+            }
+          }
+        }
+      },
+      "runtimes": {
+        "win": {
+          "#import": []
+        },
+        "win-x64": {
+          "#import": []
+        },
+        "win-x86": {
+          "#import": []
+        }
+      }
+    }
+  }
+}
